@@ -1,16 +1,41 @@
-import Navbar from './components/Navbar'
-import './App.css'
-
+import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
+import "./App.css";
 
 function App() {
+  const navBarHeight = 80;
+
   return (
-    <div className="bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]">
-      <Navbar />
-      <h1 className="text-3xl font-bold bold underline text-green-600 my-4">
-        Next Section
-      </h1>
+    <div
+      className={`mt-[${navBarHeight}px] bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]`}
+    >
+      <Navbar navBarHeight={navBarHeight} />
+      <HeroSection />
+
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
