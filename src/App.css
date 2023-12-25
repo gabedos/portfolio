@@ -4,7 +4,6 @@ body {
   -webkit-font-smoothing: "Roboto", sans-serif;
   -moz-osx-font-smoothing: "Roboto", sans-serif;
   font-style: normal;
-  background-color: lightcoral;
 }
 
 .logo {
@@ -12,8 +11,4 @@ body {
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
-}
-
-#main {
-  margin-top: 80px !important;
 }

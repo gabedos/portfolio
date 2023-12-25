@@ -21,6 +21,9 @@ export default {
           DEFAULT: "#fbc2eb",
         },
       },
+      spacing: {
+        "nav-height": "80px",
+      },
     },
   },
   plugins: [],
