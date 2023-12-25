@@ -7,6 +7,7 @@ function App() {
 
   return (
     <div
+      id="main"
       className={`mt-[${navBarHeight}px] bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]`}
     >
       <Navbar navBarHeight={navBarHeight} />

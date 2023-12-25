@@ -13,15 +13,18 @@ export default function HeroSection() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod
           tempor incididunt ut labore
         </span>
-        <button className="bg-primary max-w-[150px] rounded border-2 border-solid border-black px-6 py-2 font-[Poppins] font-bold transition duration-300 ease-in-out hover:bg-transparent hover:text-white md:mb-0">
+        <button className="border-blue-darker hover:bg-blue-darker text-blue-darkest max-w-[150px] rounded border bg-transparent px-4 py-2 font-semibold transition duration-300 ease-in-out hover:border-transparent hover:text-white">
           Get in touch
         </button>
       </div>
 
       <div className="mx-3 flex flex-grow justify-center">
-        <div className="relative flex max-w-[500px] flex-grow basis-[300px] justify-center">
-          <img src={portrait} className="w-100 z-[2] m-auto h-[400px]" />
-          <div className="bg-primary absolute bottom-0 left-0 right-0 z-[1] h-[60%] rounded-3xl shadow-2xl"></div>
+        <div className="relative flex flex-grow basis-[300px] justify-center">
+          <img
+            src={portrait}
+            className="w-100 z-[2] m-auto max-h-[500px] min-h-[400px]"
+          />
+          <div className="bg-primary absolute bottom-0 left-0 right-0 z-[1] mx-auto h-[60%] max-w-[600px] self-center rounded-3xl shadow-2xl"></div>
         </div>
       </div>
     </div>

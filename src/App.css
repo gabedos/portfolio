@@ -13,3 +13,7 @@ body {
   will-change: filter;
   transition: filter 300ms;
 }
+
+#main {
+  margin-top: 80px !important;
+}
