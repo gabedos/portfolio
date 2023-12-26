@@ -11,6 +11,7 @@ export default {
         secondary: "#5e3bee",
         "secondary-light": "#7c6ff7",
         blue: {
+          black: "#090d15",
           darkest: "#1b283f",
           darker: "#35507d",
           dark: "#5986d1",
@@ -23,6 +24,22 @@ export default {
       },
       spacing: {
         "nav-height": "80px",
+        "page-height": "calc(100vh - 80px - 40px)",
+      },
+      animation: {
+        text: "text 5s ease infinite",
+      },
+      keyframes: {
+        text: {
+          "0%, 100%": {
+            "background-size": "200% 200%",
+            "background-position": "left center",
+          },
+          "50%": {
+            "background-size": "200% 200%",
+            "background-position": "right center",
+          },
+        },
       },
     },
   },

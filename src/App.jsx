@@ -1,37 +1,14 @@
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
+import Background from "./components/Background";
 import "./App.css";
 
 function App() {
   return (
-    <div
-      className={`mt-nav-height bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee]`}
-    >
+    <div className={`mt-nav-height`}>
       <Navbar />
       <HeroSection />
-
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+      <Background />
     </div>
   );
 }

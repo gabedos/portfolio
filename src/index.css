@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-btn {
+  @apply mx-4 my-6 md:my-0;
+}
+
+.nav-item {
+  @apply hover:text-blue-dark text-xl duration-500;
+}
+
+.bg-gradient {
+  @apply bg-gradient-to-t from-[#E5C2EC] to-[#a6c1ee];
+}

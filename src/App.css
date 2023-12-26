@@ -4,6 +4,7 @@ body {
   -webkit-font-smoothing: "Roboto", sans-serif;
   -moz-osx-font-smoothing: "Roboto", sans-serif;
   font-style: normal;
+  min-width: 370px;
 }
 
 .logo {
@@ -11,4 +12,14 @@ body {
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse-long {
+  animation: pulse 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
